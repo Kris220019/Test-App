@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+			<br />
+			<form>
+				<div class="form-group">
+					<label for="firstName" class="label">First Name</label>
+					<input type="text" class="form-control" id="firstName">
+				  </div>
+				  <hr>
+				  <div class="form-group">
+					<label for="lastName" class="label">Last Name</label>
+					<input type="text" class="form-control" id="lastName">
+				  </div>
+				  <hr>
+				  <div class="form-group">
+					<label for="lastName" class="label">Email</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<hr>
+				<div class="form-group">
+					<label for="phoneNumber" class="label">Phone Number</label>
+					<input type="number" class="form-control" id="phoneNumber">
+				</div>
+				<hr>
+				<fieldset class="form-group" id="sex">
+					<legend class="col-form-label label">Sex</legend>
+					<div class="col-sm-10">
+						<label class="form-check-label" for="male">
+						  Male
+						</label>
+						<input class="form-check-input radio" type="radio" name="sex" id="male" value="male">
+					  <br>
+						<label class="form-check-label" for="female">
+						  Female
+						</label>	  
+						<input class="form-check-input radio" type="radio" name="sex" id="female" value="female">
+				  </div>
+				</fieldset>
+				<hr>
+				<div class="form-group">
+				  <div class="label">Skills</div>
+				  <div class="col-sm-10">
+					  <label class="form-check-label" for="html">
+						HTML
+					  </label>
+					  <input class="form-check-input" type="checkbox" id="html">
+					  <br>
+					  <label class="form-check-label" for="css">
+						CSS
+					  </label>
+					  <input class="form-check-input" type="checkbox" id="css">
+					  <br>
+					  <label class="form-check-label" for="javascript">
+						JavaScript
+					  </label>
+					  <input class="form-check-input" type="checkbox" id="javascript">
+					  <br>
+					  <label class="form-check-label" for="ajax">
+						AJAX
+					  </label>
+					  <input class="form-check-input" type="checkbox" id="ajax">
+				  </div>
+				</div>
+				<hr>
+				<div>
+					<div class="label">Department</div>
+					<select class="custom-select" size="4" multiple>
+						<option id="frontend" value="frontend" selected>Front End</option>
+						<option id="sitecore" value="sitecore">SiteCore</option>
+						<option id="salesforce" value="salesforce">SalesForse</option>
+						<option id="sharepoint" value="sharepoint">Sharepoint</option>
+					  </select>
+				</div>
+				<hr>
+					<button type="button" class="btn btn-outline-dark customButton" id="submitButton">Submit</button>
+				
+			  </form>
+			  
+	
+	</div>
+	<br>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+	<script src="script.js"></script>
+</body>
